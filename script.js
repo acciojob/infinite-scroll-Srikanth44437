@@ -1,5 +1,5 @@
 let itemCount = 1;
-      const container = document.querySelector(".container");
+      const container = document.querySelector("#infi-list");
       function generateElements(n) {
         for (let i = 0; i < n; i++) {
           const element = document.createElement("div");
